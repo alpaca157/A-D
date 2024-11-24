@@ -19,7 +19,7 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize){
 	if(nums [i] + nums [j] == target){
     	indice[0] = i;
     	indice[1] = j;
-        *returnSize = 2; // Define o tamanho da aray retornada
+        *returnSize = 2; // Define o tamanho da array retornada
  	return indice;
   }
  }
